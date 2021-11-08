@@ -1,6 +1,6 @@
 # Front-End - Ejercicio
 
-_Ejercicio técnico Front-End_
+_Ejercicio técnico Front-End desarrollado con Javascript Vainilla_
 
 ## Crea tu propio Pixel Art 🚀
 
@@ -9,21 +9,21 @@ _Ejercicio técnico Front-End_
 
 ### Pre-requisitos 📋
 
-_La apliacion contiene ES6_
+_La apliación contiene ES6_
 
 ```
-Aplicación no compatible con IE.
+Aplicación no compatible con IE o navegadores que no acepten ES6.
 ```
 
 ## Construido con 🎁
 
 _prueba la demo en el siguiente link_
 
-* [JUGAR]() - 
+* [JUGAR](https://julianfanjul.github.io/pixel-art-maker/) - 
 
 
 ## Autor ✒️
 
-* **Fanjul Julian** - 
+* **Fanjul Julián** - 
 
 
