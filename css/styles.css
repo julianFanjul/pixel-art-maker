@@ -1,0 +1,94 @@
+
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Reset CSS */
+
+table,
+tr,
+td {
+    outline: 1px solid rgba(223, 219, 219, 0.247);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.draggable {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 60px;
+	cursor: move;
+    z-index: 100; 
+    display: none;
+    background-color: #ffffff;
+    transition: display 1s ease;
+    outline:  1px ridge rgba(135, 130, 138, 0.6);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; 
+}
+
+.color-picker-box{
+    padding:5px;
+    display: flex;
+}
+
+.color-picker-box > li {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: pink;
+    outline: 1px solid #515c5554;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: transform .1s ease-in;
+    list-style: none;
+}
+
+.color-picker-box > li:hover {
+    transform: scale(1.1);
+}
+.color-picker-box > li:nth-child(1) {
+    background-color: #FF0000;
+}
+.color-picker-box > li:nth-child(2) {
+    background-color: #00FF00;
+}
+.color-picker-box > li:nth-child(3) {
+    background-color: #0000FF;
+}
+.color-picker-box > li:nth-child(4) {
+    background-color: #ffffff;
+}
+.color-picker-box > li:nth-child(5) {
+    background-color: #000000;
+}
+
+.color-picker-free{
+    width:40px;
+    height: 40px;
+}
+
