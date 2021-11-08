@@ -5,7 +5,7 @@ _Ejercicio técnico Front-End desarrollado con Javascript Vainilla_
 ## Crea tu propio Pixel Art 🚀
 
 * **Pintar** - Click sobre los pixeles.
-* **Cambiar de color** - Click derecho sobre el viewport para abrir tu paleta de colores.
+* **Cambiar de color** - Click derecho sobre el viewport para abrir tu paleta de colores, puedes elegir entre 5 colores fijos y uno variable.
 
 ### Pre-requisitos 📋
 
